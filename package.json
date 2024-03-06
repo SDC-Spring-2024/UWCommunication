@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "latest-version": "^8.0.0"
+    "latest-version": "^8.0.0",
+    "mysql": "^2.18.1",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1"
   }
 }

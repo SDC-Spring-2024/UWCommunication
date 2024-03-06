@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import RegistrationForm from "./components/RegistrationForm";
+
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* Registration Form Section */}
+      <div className="RegistrationSection">
+        <h2>Register</h2>
+        <RegistrationForm />
+      </div>
     </div>
   );
 }
